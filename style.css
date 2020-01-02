@@ -1,0 +1,77 @@
+  /*td{
+  background-color: white;
+  width: 300px;
+  border: 1px solid green;
+  padding: 50px;
+  margin: 10px;
+  border-radius: 20px;}*/
+
+  #vtBnads_Tab td{
+  background-color: white;
+  width: 300px;
+  border-radius: 20px;
+  /*padding: 50px;
+   border: 1px dotted green; 
+   comment */  
+ margin: 10px; 
+}
+  
+  #stgridit td{
+  background-color: white;
+  width: 300px;
+  padding: 25px;
+  margin: 10px;
+  /* border: 1px solid red;
+  border-radius: 50px 20px*/;}
+
+.container {
+  position: relative;
+}
+
+/* #sampcontainer td{
+  position: relative;	
+}*/
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*font-size: 18px;*/
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+  border-radius: 50px 20px;
+}
+  
+  /*
+  #CarasalBanners a{
+  background-color: white;
+  width: 300px;
+  border: 2px solid lime;
+  padding: 50px;
+  margin: 10px;
+  border-radius: 20px;}  
+  */
+  
+  #CarasalBanners a{
+  background-color: yellow;
+  width: 30px;
+  border: 2px solid lime;
+  padding: 17px;
+  margin: 10px;
+  border-radius: 20px;}
+  
+  #lk_Fields td{
+  background-color: white;
+  width: 300px;
+  border: 1px solid black;
+  padding: 50px;
+  margin: 10px;
+  border-radius: 20px;}
+  
+  
+  
