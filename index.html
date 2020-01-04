@@ -99,23 +99,25 @@ document.write("More Sites Will Be Listed Here!")//('Google Shopping'.link('http
 
       </td>
       <td id="st5gridit" ><!-- Content -->
-	    <p>Want Cash Back, Coupons, Seasonal Sales, and Every day Deals?</p>
 
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  var str = "Shop at all your favorite places to shop with cashback all year around.";
-  var result = str.link("https://www.rakuten.com/r/MONICA30711?eeid=28187");
-  document.getElementById("demo").innerHTML = result;
-}
-</script>
 	    </td>
     </tr>
     <tr width="auto">
-      <td id="st6gridit"><!-- Content --></td>
+      <td id="st6gridit"><!-- Content -->
+	    <p>Want Cash Back, Coupons, Seasonal Sales, and Every day Deals?</p>
+
+<button onclick="LinkAdd()">Try it</button>
+
+<p id="demoLAdd"></p>
+
+<script>
+function LinkAdd() {
+  var str = "Shop at all your favorite places to shop with cashback all year around.";
+  var result = str.link("https://www.rakuten.com/r/MONICA30711?eeid=28187");
+  document.getElementById("demoLAdd").innerHTML = result;
+}
+</script>	    
+	    </td>
       <td id="st7gridit"><!-- Content --></td>
       <td id="st8gridit"><!-- Content --></td>
       <td id="st9gridit"><!-- Content --></td></tr>      
