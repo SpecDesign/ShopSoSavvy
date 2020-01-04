@@ -118,7 +118,22 @@ function LinkAdd() {
 }
 </script>	    
 	    </td>
-      <td id="st7gridit"><!-- Content --></td>
+      <td id="st7gridit"><!-- Content -->
+	    	    <p>The Target.com online store sells a large variety of items available at the Stores Warehouse. 
+			    A customer can order items ship to their home or for pick up at the store</p>
+
+<button onclick="LinkAdd1()">Try it</button>
+
+<p id="demoLAdd1"></p>
+
+<script>
+function LinkAdd1() {
+  var str = "Get Cashback at Target";
+  var result = str.link("https://www.rakuten.com/r/MONICA30711?eeid=28187");
+  document.getElementById("demoLAdd1").innerHTML = result;
+}
+</script>
+	    </td>
       <td id="st8gridit"><!-- Content --></td>
       <td id="st9gridit"><!-- Content --></td></tr>      
       </table>
